@@ -1,0 +1,32 @@
+body{
+    background-color:blanchedalmond;
+    font-family: sans-serif;
+}
+section.link{
+    width: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right:0px;
+    background-color: darkgrey;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    padding: 20px;
+    vertical-align: top;
+}
+a.link{
+    background-color: gray;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+p.link{
+    margin:0px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+div{
+    margin-top: 65px;
+}
