@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    font-size: 140%;
+    
+}
+
+header{
+    font-size: 80%;
+    background-color: #333;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, max-content) auto;
+    align-items: center;
+}
+
+p{
+    margin-left:10px;
+}
+
+.link{
+    margin: 0px 15px;
+    padding: 8px 20px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.active, .link:hover{
+    background-color: white;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
